@@ -35,7 +35,7 @@ body {
   float: left;
   color: #f2f2f2;
   text-align: center;
-  padding: 18px 24px;
+  padding: 14px 24px;
   text-decoration: none;
   font-size: 18px;
 }
@@ -54,38 +54,16 @@ body {
   float: right;
 }
 
-/*
-nav,.nav-links {
-  display: flex;
+/* SECTIONS */
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 20px;
 }
 
-nav {
-  justify-content: space-around;
-  align-items: center;
-  height: 17vh;
-}
-
-.nav-links {
-  gap: 2rem;
-  list-style: none;
-  font-size: 1.5rem;
-}
-*/
-
-
-.logo {
-  /*padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;*/
-}
-
-.logo {
-  font-size: 2rem;
-}
-
-.logo:hover {
-  cursor: default;
+.organization-description {
+    text-align: center;
 }
 
 /* IMAGES */
@@ -93,7 +71,7 @@ nav {
 #image-track {
   display: flex;
   gap: 4vmin;
-  position: absolute;
+  position: relative;
   left: 40%;
   top: 50%;
   transform: translate(0%, -50%); 
@@ -104,5 +82,5 @@ nav {
   width: 40vmin;
   height: 56vmin;
   object-fit: cover;
-  object-position: 100% center;
+  object-position: 115% center; /* modify to match objectPosition js line 28*/
 }
