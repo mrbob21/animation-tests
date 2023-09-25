@@ -63,7 +63,7 @@ body {
 /* HOME PAGE */
 
 #description {
-  background-color: yellow;
+  background-color: orange;
 }
 
 .title {
@@ -91,7 +91,7 @@ footer{
 
 #about-information {
   position: relative;
-  background-color: yellow;
+  background-color: orange;
   text-align: center;
 }
 
@@ -111,7 +111,7 @@ footer{
 
 #our-mission {
   position: relative;
-  background-color: yellow;
+  background-color: orange;
   text-align: center;
 }
 
@@ -125,13 +125,17 @@ footer{
 
 #payment-information {
   text-align: center;
-  background-color: yellow;
+  background-color: orange;
 }
 
 ul {
   list-style-type: disc;
   list-style-position: inside; 
 }
+
+/* PRODUCT IMAGES */
+
+
 
 
 
