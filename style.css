@@ -111,6 +111,17 @@ footer{
   text-align: center;
 }
 
+/* PRODUCTS SECTION */
+
+#payment-information {
+  text-align: center;
+}
+
+ul {
+  list-style-type: disc;
+  list-style-position: inside; 
+}
+
 /* IMAGES */
 
 #image-track {
