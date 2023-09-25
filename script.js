@@ -20,12 +20,11 @@ const handleOnMove = e => {
   track.dataset.percentage = nextPercentage;
   
   track.animate({
-    transform: `translate(${nextPercentage}%, -50%)`
-  }, { duration: 1200, fill: "forwards" });
+    transform: `translate(${nextPercentage}%, -50%)`}, { duration: 1200, fill: "forwards" });
   
   for(const image of track.getElementsByClassName("image")) {
     image.animate({
-      objectPosition: `${115 + nextPercentage}% center`},
+      objectPosition: `${115 + nextPercentage}% center`}, //doesnt solve track length issue
       { duration: 1200, fill: "forwards" });
   }
 }

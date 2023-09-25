@@ -28,7 +28,7 @@ body {
 /* DESKTOP NAV */
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: purple;
 }
 
 .topnav a {
@@ -54,7 +54,7 @@ body {
   float: right;
 }
 
-/* SECTIONS */
+/* HOME PAGE */
 
 .title {
   font-size: 3rem;
@@ -64,6 +64,51 @@ body {
 
 .organization-description {
     text-align: center;
+    font-size: 2rem;
+}
+
+.copyright-information-home {
+  padding-top: 100px;
+  text-align: center;
+}
+
+footer{ 
+  padding-top: 100px;
+  text-align: center;
+}
+
+/* ABOUT INFORMATION*/
+
+#about-information {
+  position: relative;
+  background-color: yellow;
+  text-align: center;
+}
+
+.what-we-do {
+  text-align: center;
+}
+
+.what-we-do-info {
+  text-align: center;
+}
+
+#mission-goals {
+  position: relative;
+  background-color: white;
+  text-align: center;
+}
+
+#our-mission {
+  position: relative;
+  background-color: yellow;
+  text-align: center;
+}
+
+#our-values {
+  position: relative;
+  background-color: white;
+  text-align: center;
 }
 
 /* IMAGES */
@@ -73,7 +118,7 @@ body {
   gap: 4vmin;
   position: relative;
   left: 40%;
-  top: 50%;
+  top: 30%;
   transform: translate(0%, -50%); 
   user-select: none; /* -- Prevent image highlighting -- */
 }
