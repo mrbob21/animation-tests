@@ -22,7 +22,12 @@ body {
   width: 100vw;
   background-color: white;
   margin: 0rem;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 /* DESKTOP NAV */
