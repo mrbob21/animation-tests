@@ -58,22 +58,22 @@ document.getElementById('officer-prev').onclick = function(){
 
 //EVENT PAGE IMAGE CODE
 
-let slidegeneral = document.querySelectorAll('.slide-general'); //need to search up later
+let slide = document.querySelectorAll('.slide'); //need to search up later
 var current = 0; //starting slide
 
 function cls(){
-    for(let i = 0; i < slidegeneral.length; i++){
-          slidegeneral[i].style.display = 'none';
+    for(let i = 0; i < slide.length; i++){
+          slide[i].style.display = 'none';
     }
 }
 
 function next(){
     cls();
-    if(current === slidegeneral.length-1) current = -1;
+    if(current === slide.length-1) current = -1;
     current++;
 
-    slidegeneral[current].style.display = 'block';
-    slidegeneral[current].style.opacity = 0.6;
+    slide[current].style.display = 'block';
+    slide[current].style.opacity = 0.6;
 
     // var x = 0.6;
     // var intX = setInterval(function(){
@@ -88,11 +88,11 @@ function next(){
 
 function prev(){
     cls();
-    if(current === 0) current = slidegeneral.length;
+    if(current === 0) current = slide.length;
     current--;
 
-    slidegeneral[current].style.display = 'block';
-    slidegeneral[current].style.opacity = 0.6;
+    slide[current].style.display = 'block';
+    slide[current].style.opacity = 0.6;
 
     // var x = 0.6;
     // var intX = setInterval(function(){
@@ -107,6 +107,6 @@ function prev(){
 
 function start(){
     cls();
-    slidegeneral[current].style.display = 'block';
+    slide[current].style.display = 'block';
 }
 start();
