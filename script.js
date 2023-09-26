@@ -47,14 +47,66 @@ window.ontouchmove = e => handleOnMove(e.touches[0]);
 
 //ABOUT PAGE IMAGE CODE
 
-document.getElementById('next').onclick = function(){
-  let lists = document.querySelectorAll('.item');
+document.getElementById('officer-next').onclick = function(){
+  let lists = document.querySelectorAll('.officer-slide');
   document.getElementById('slide-one').appendChild(lists[0]);
 }
-document.getElementById('prev').onclick = function(){
-  let lists = document.querySelectorAll('.item');
+document.getElementById('officer-prev').onclick = function(){
+  let lists = document.querySelectorAll('.officer-slide');
   document.getElementById('slide-one').prepend(lists[lists.length - 1]);
 }
 
 //EVENT PAGE IMAGE CODE
 
+let slidegeneral = document.querySelectorAll('.slide-general'); //need to search up later
+var current = 0; //starting slide
+
+function cls(){
+    for(let i = 0; i < slidegeneral.length; i++){
+          slidegeneral[i].style.display = 'none';
+    }
+}
+
+function next(){
+    cls();
+    if(current === slidegeneral.length-1) current = -1;
+    current++;
+
+    slidegeneral[current].style.display = 'block';
+    slidegeneral[current].style.opacity = 0.6;
+
+    // var x = 0.6;
+    // var intX = setInterval(function(){
+    //     x+=0.1;
+    //     slide[current].style.opacity = x;
+    //     if(x >= 1) {
+    //         clearInterval(intX);
+    //         x = 0.6;
+    //     }
+    // }, 100);
+}
+
+function prev(){
+    cls();
+    if(current === 0) current = slidegeneral.length;
+    current--;
+
+    slidegeneral[current].style.display = 'block';
+    slidegeneral[current].style.opacity = 0.6;
+
+    // var x = 0.6;
+    // var intX = setInterval(function(){
+    //     x+=0.1;
+    //     slide[current].style.opacity = x;
+    //     if(x >= 1) {
+    //         clearInterval(intX);
+    //         x = 0.6;
+    //     }
+    // }, 100);
+}
+
+function start(){
+    cls();
+    slidegeneral[current].style.display = 'block';
+}
+start();
