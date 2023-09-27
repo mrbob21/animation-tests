@@ -46,12 +46,11 @@ window.onmousemove = e => handleOnMove(e);
 window.ontouchmove = e => handleOnMove(e.touches[0]);
 
 //ABOUT PAGE IMAGE CODE
-
-document.getElementById('officer-next').onclick = function(){
+document.getElementById('officer-next').onclick = function officerFoward(){
   let lists = document.querySelectorAll('.officer-slide');
   document.getElementById('slide-one').appendChild(lists[0]);
 }
-document.getElementById('officer-prev').onclick = function(){
+document.getElementById('officer-prev').onclick = function officerBackward(){
   let lists = document.querySelectorAll('.officer-slide');
   document.getElementById('slide-one').prepend(lists[lists.length - 1]);
 }
