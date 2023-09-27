@@ -45,67 +45,56 @@ window.onmousemove = e => handleOnMove(e);
 
 window.ontouchmove = e => handleOnMove(e.touches[0]);
 
-//ABOUT PAGE IMAGE CODE
-document.getElementById('officer-next').onclick = function officerFoward(){
-  let lists = document.querySelectorAll('.officer-slide');
-  document.getElementById('slide-one').appendChild(lists[0]);
+// Officer Slider
+function setupOfficerSlider() {
+  document.getElementById('officer-next').onclick = function officerFoward(){
+    let lists = document.querySelectorAll('.officer-slide');
+    document.getElementById('slide-one').appendChild(lists[0]);
+  }
+  
+  document.getElementById('officer-prev').onclick = function officerBackward(){
+    let lists = document.querySelectorAll('.officer-slide');
+    document.getElementById('slide-one').prepend(lists[lists.length - 1]);
+  }
 }
-document.getElementById('officer-prev').onclick = function officerBackward(){
-  let lists = document.querySelectorAll('.officer-slide');
-  document.getElementById('slide-one').prepend(lists[lists.length - 1]);
-}
 
-//EVENT PAGE IMAGE CODE
-
-let slide = document.querySelectorAll('.slide'); //need to search up later
-var current = 0; //starting slide
-
-function cls(){
+// Event Slider
+function setupEventSlider() {
+  var slide = document.querySelectorAll('.slide'); //need to search up later
+  var current = 0; //starting slide
+  
+  function cls(){
     for(let i = 0; i < slide.length; i++){
-          slide[i].style.display = 'none';
+      slide[i].style.display = 'none';
     }
-}
-
-function next(){
+  }
+  
+  function next(){
     cls();
     if(current === slide.length-1) current = -1;
     current++;
-
+  
     slide[current].style.display = 'block';
     slide[current].style.opacity = 0.6;
-
-    // var x = 0.6;
-    // var intX = setInterval(function(){
-    //     x+=0.1;
-    //     slide[current].style.opacity = x;
-    //     if(x >= 1) {
-    //         clearInterval(intX);
-    //         x = 0.6;
-    //     }
-    // }, 100);
-}
-
-function prev(){
+  }
+  
+  function prev(){
     cls();
     if(current === 0) current = slide.length;
     current--;
-
+  
     slide[current].style.display = 'block';
     slide[current].style.opacity = 0.6;
-
-    // var x = 0.6;
-    // var intX = setInterval(function(){
-    //     x+=0.1;
-    //     slide[current].style.opacity = x;
-    //     if(x >= 1) {
-    //         clearInterval(intX);
-    //         x = 0.6;
-    //     }
-    // }, 100);
-}
-
-function start(){
+  }
+  
+  function start(){
     cls();
     slide[current].style.display = 'block';
+  }
+  
+  start();
 }
-start();
+
+// Call the setup functions
+setupOfficerSlider();
+setupEventSlider();
