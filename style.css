@@ -573,7 +573,7 @@ section {
   cursor: pointer;
   z-index: 100;
   background: rgba(0, 0, 0, .1);
-  border-radius: 50%;
+  border-radius: 30%;
 }
 .events-arrow img {
   width: 50px;
