@@ -1,2 +1,1 @@
-# animation-tests
- Testing CSS animations
+Folding For Good Website - made from scratch with HTML, CSS, and JS
