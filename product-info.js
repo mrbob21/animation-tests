@@ -261,7 +261,7 @@ function displayInfoOne() {
   }
   
   document.getElementById("slider-button-5-1").addEventListener("click", function() {
-    info = "#25. $15 or 4 pairs of shoes";
+    info = "#33. $20 or 4 pairs of shoes";
     displayInfoFive();
     }
   );
