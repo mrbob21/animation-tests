@@ -393,6 +393,55 @@ section {
   display: flex;
 }
 
+/* PAYMENT INFORMATION */
+#payment-information {
+  position: relative;
+  background-color: orange;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0%;
+  padding: 10px;
+}
+
+.our-products {
+  grid-column: 2 / span 1;
+  text-align: center; 
+}
+
+.tax-deductible {
+  font-size: 2rem;
+  grid-column: 2 / span 1;
+  text-align: center;
+}
+
+.donation-options {
+  font-size: 2rem;
+  grid-column: 2 / span 1;
+  text-align: center; 
+}
+
+.payment-options {
+  font-size: 1.5rem;
+  grid-column: 2 / span 1;
+  text-align: center; 
+}
+
+.QR-image-2 {
+  display: block;
+  width: 50%;
+  height: 100%;
+  grid-column: 1 / span 1;
+  justify-self: center;
+  grid-row: 2 / span 3;
+}
+
+.QR-code-description-2 {
+  grid-column: 2 / span 1;
+  padding-bottom: 1%;
+}
+
+
+/* PRODUCT SLIDERS */
 #slider-one {
   position: relative;
   height: 75vh;
