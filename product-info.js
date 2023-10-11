@@ -186,7 +186,7 @@ function displayInfoOne() {
     }
   );
 
-  // SLIDER THREE
+  // SLIDER FOUR
   function displayInfoFour() {
     document.getElementById("price-information-four").innerHTML = info;
     
@@ -244,5 +244,250 @@ function displayInfoOne() {
   document.getElementById("slider-button-4-8").addEventListener("click", function() {
     info = "#32. $20 or 4 pairs of shoes";
     displayInfoFour();
+    }
+  );
+
+  // SLIDER FIVE
+  function displayInfoFive() {
+    document.getElementById("price-information-five").innerHTML = info;
+    
+    document.getElementById("price-information-one").innerHTML = "";
+    document.getElementById("price-information-two").innerHTML = "";
+    document.getElementById("price-information-three").innerHTML = "";
+    document.getElementById("price-information-four").innerHTML = "";
+    document.getElementById("price-information-six").innerHTML = "";
+    document.getElementById("price-information-seven").innerHTML = "";
+    document.getElementById("price-information-eight").innerHTML = "";
+  }
+  
+  document.getElementById("slider-button-5-1").addEventListener("click", function() {
+    info = "#25. $15 or 4 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-2").addEventListener("click", function() {
+    info = "#26. $8 or 3 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-3").addEventListener("click", function() {
+    info = "#27. $20 or 4 pairs of shoes";
+    displayInfoFive();
+  }
+  );
+  
+  document.getElementById("slider-button-5-4").addEventListener("click", function() {
+    info = "#28. $8 or 3 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-5").addEventListener("click", function() {
+    info = "#29. $20 or 4 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-6").addEventListener("click", function() {
+    info = "#30. $20 or 4 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-7").addEventListener("click", function() {
+    info = "#31. $20 or 4 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+  
+  document.getElementById("slider-button-5-8").addEventListener("click", function() {
+    info = "#32. $20 or 4 pairs of shoes";
+    displayInfoFive();
+    }
+  );
+
+// SLIDER SIX
+function displayInfoSix() {
+    document.getElementById("price-information-six").innerHTML = info;
+
+    document.getElementById("price-information-one").innerHTML = "";
+    document.getElementById("price-information-two").innerHTML = "";
+    document.getElementById("price-information-three").innerHTML = "";
+    document.getElementById("price-information-four").innerHTML = "";
+    document.getElementById("price-information-five").innerHTML = "";
+    document.getElementById("price-information-seven").innerHTML = "";
+    document.getElementById("price-information-eight").innerHTML = "";
+    }
+
+    document.getElementById("slider-button-6-1").addEventListener("click", function() {
+    info = "#25. $15 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-2").addEventListener("click", function() {
+    info = "#26. $8 or 3 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-3").addEventListener("click", function() {
+    info = "#27. $20 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-4").addEventListener("click", function() {
+    info = "#28. $8 or 3 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-5").addEventListener("click", function() {
+    info = "#29. $20 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-6").addEventListener("click", function() {
+    info = "#30. $20 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-7").addEventListener("click", function() {
+    info = "#31. $20 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+    document.getElementById("slider-button-6-8").addEventListener("click", function() {
+    info = "#32. $20 or 4 pairs of shoes";
+    displayInfoSix();
+    }
+    );
+
+
+  // SLIDER SEVEN
+function displayInfoSeven() {
+    document.getElementById("price-information-seven").innerHTML = info;
+    
+    document.getElementById("price-information-one").innerHTML = "";
+    document.getElementById("price-information-two").innerHTML = "";
+    document.getElementById("price-information-three").innerHTML = "";
+    document.getElementById("price-information-four").innerHTML = "";
+    document.getElementById("price-information-five").innerHTML = "";
+    document.getElementById("price-information-six").innerHTML = "";
+    document.getElementById("price-information-eight").innerHTML = "";
+  }
+  
+  document.getElementById("slider-button-7-1").addEventListener("click", function() {
+    info = "#25. $15 or 4 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-2").addEventListener("click", function() {
+    info = "#26. $8 or 3 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-3").addEventListener("click", function() {
+    info = "#27. $20 or 4 pairs of shoes";
+    displayInfoSeven();
+  }
+  );
+  
+  document.getElementById("slider-button-7-4").addEventListener("click", function() {
+    info = "#28. $8 or 3 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-5").addEventListener("click", function() {
+    info = "#29. $20 or 4 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-6").addEventListener("click", function() {
+    info = "#30. $20 or 4 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-7").addEventListener("click", function() {
+    info = "#31. $20 or 4 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+  
+  document.getElementById("slider-button-7-8").addEventListener("click", function() {
+    info = "#32. $20 or 4 pairs of shoes";
+    displayInfoSeven();
+    }
+  );
+
+  // SLIDER EIGHT
+function displayInfoEight() {
+    document.getElementById("price-information-eight").innerHTML = info;
+    
+    document.getElementById("price-information-one").innerHTML = "";
+    document.getElementById("price-information-two").innerHTML = "";
+    document.getElementById("price-information-three").innerHTML = "";
+    document.getElementById("price-information-four").innerHTML = "";
+    document.getElementById("price-information-five").innerHTML = "";
+    document.getElementById("price-information-six").innerHTML = "";
+    document.getElementById("price-information-seven").innerHTML = "";
+  }
+  
+  document.getElementById("slider-button-8-1").addEventListener("click", function() {
+    info = "#25. $15 or 4 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-2").addEventListener("click", function() {
+    info = "#26. $8 or 3 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-3").addEventListener("click", function() {
+    info = "#27. $20 or 4 pairs of shoes";
+    displayInfoEight();
+  }
+  );
+  
+  document.getElementById("slider-button-8-4").addEventListener("click", function() {
+    info = "#28. $8 or 3 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-5").addEventListener("click", function() {
+    info = "#29. $20 or 4 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-6").addEventListener("click", function() {
+    info = "#30. $20 or 4 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-7").addEventListener("click", function() {
+    info = "#31. $20 or 4 pairs of shoes";
+    displayInfoEight();
+    }
+  );
+  
+  document.getElementById("slider-button-8-8").addEventListener("click", function() {
+    info = "#32. $20 or 4 pairs of shoes";
+    displayInfoEight();
     }
   );
