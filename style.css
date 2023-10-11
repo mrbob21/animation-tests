@@ -1251,16 +1251,6 @@ left:-77.5%;
   background: #aad5f6;
 }
 
-.slide-1 {
-  background: url('/assets/one.jpg');
-}
-.slide-2 {
-  background: url('/assets/two.jpg');
-}
-.slide-3 {
-  background: url('/assets/three.jpg');
-}
-
 .slide {
   width: 100%;
   height: 100vh;
