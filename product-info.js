@@ -185,3 +185,64 @@ function displayInfoOne() {
     displayInfoThree();
     }
   );
+
+  // SLIDER THREE
+  function displayInfoFour() {
+    document.getElementById("price-information-four").innerHTML = info;
+    
+    document.getElementById("price-information-one").innerHTML = "";
+    document.getElementById("price-information-two").innerHTML = "";
+    document.getElementById("price-information-three").innerHTML = "";
+    document.getElementById("price-information-five").innerHTML = "";
+    document.getElementById("price-information-six").innerHTML = "";
+    document.getElementById("price-information-seven").innerHTML = "";
+    document.getElementById("price-information-eight").innerHTML = "";
+  }
+  
+  document.getElementById("slider-button-4-1").addEventListener("click", function() {
+    info = "#25. $15 or 4 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-2").addEventListener("click", function() {
+    info = "#26. $8 or 3 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-3").addEventListener("click", function() {
+    info = "#27. $20 or 4 pairs of shoes";
+    displayInfoFour();
+  }
+  );
+  
+  document.getElementById("slider-button-4-4").addEventListener("click", function() {
+    info = "#28. $8 or 3 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-5").addEventListener("click", function() {
+    info = "#29. $20 or 4 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-6").addEventListener("click", function() {
+    info = "#30. $20 or 4 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-7").addEventListener("click", function() {
+    info = "#31. $20 or 4 pairs of shoes";
+    displayInfoFour();
+    }
+  );
+  
+  document.getElementById("slider-button-4-8").addEventListener("click", function() {
+    info = "#32. $20 or 4 pairs of shoes";
+    displayInfoFour();
+    }
+  );

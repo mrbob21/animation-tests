@@ -337,6 +337,18 @@ section {
   display: flex;
 }
 
+#slider-four {
+  position: relative;
+  height: 75vh;
+  width: fit-content;
+  box-sizing: border-box;
+  min-height: fit-content;
+  background-color: skyblue;
+  padding: 30px;
+  display: flex;
+}
+
+
 
 .products-image-slider{
     width: 100%;
@@ -631,6 +643,88 @@ left:-65%;
 }
 
 #slider-three-span8:target ~.products-image-slider{
+left:-77.5%;
+}
+
+/* SLIDER FOUR */
+
+#slider-four-span1:target ~ .products-image-slider #img1,
+#slider-four-span1:target ~.products-image-slider #slider-button-3-1{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span2:target ~ .products-image-slider #img2,
+#slider-four-span2:target ~.products-image-slider #slider-button-3-2{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span3:target ~ .products-image-slider #img3,
+#slider-four-span3:target ~.products-image-slider #slider-button-3-3{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span4:target ~ .products-image-slider #img4,
+#slider-four-span4:target ~.products-image-slider #slider-button-3-4{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span5:target ~ .products-image-slider #img5,
+#slider-four-span5:target ~.products-image-slider #slider-button-3-5{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span6:target ~ .products-image-slider #img6,
+#slider-four-span6:target ~.products-image-slider #slider-button-3-6{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span7:target ~ .products-image-slider #img7,
+#slider-four-span7:target ~.products-image-slider #slider-button-3-7{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span8:target ~ .products-image-slider #img8,
+#slider-four-span8:target ~.products-image-slider #slider-button-3-8{
+    background-color: transparent;
+    filter: saturate(100%);
+}
+
+#slider-four-span1:target ~.products-image-slider{
+  left:10%;
+}
+
+#slider-four-span2:target ~.products-image-slider{
+  left: -2.5%;
+}
+
+#slider-four-span3:target ~.products-image-slider{
+left:-15%;
+}
+
+#slider-four-span4:target ~.products-image-slider{
+left:-27.5%;
+}
+
+#slider-four-span5:target ~.products-image-slider{
+left:-40%;
+}
+
+#slider-four-span6:target ~.products-image-slider{
+left:-52.5%;
+}
+
+#slider-four-span7:target ~.products-image-slider{
+left:-65%;
+}
+
+#slider-four-span8:target ~.products-image-slider{
 left:-77.5%;
 }
 
