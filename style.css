@@ -78,17 +78,18 @@ body {
 }
 
 .scroll-me {
-  padding-top: 10px;
+  padding-top: 20px;
   text-align: center;
   font-size: 1.5rem;
 }
 
 footer{ 
+  background-color: lightyellow;
   text-align: center;
 }
 
 .copyright-information-home {
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 
@@ -1274,7 +1275,7 @@ left:-77.5%;
 }
 
 .caption {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.75);
   position: absolute;
   left: 1%;
   bottom: 8%;
@@ -1287,12 +1288,12 @@ left:-77.5%;
   font-size: 2rem;
 }
 .caption p {
-  max-width: 600px;
+  max-width: 800px;
   width: 90%;
   margin: 0px auto;
   color: white;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.1rem;
   line-height: 1.5em;
 }
 .events-arrow {
