@@ -298,6 +298,7 @@ h1 {
 
 .QR-code-description {
   padding-top: 10%;
+  padding-bottom: 10%;
   grid-column: 2 / span 1;
 }
 
